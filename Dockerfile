@@ -1,20 +1,13 @@
 #
-# OpenJDK Java 7 JRE Dockerfile
+# Java JDK 8 REPL
 #
-# https://github.com/albertlatacz/java-repl
+# https://github.com/passy/java-repl
 #
 
 # Pull base image.
-FROM dockerfile/java
+FROM java:8
 
 MAINTAINER Pascal Hartig <phartig@rdrei.net>
-
-# Install Java.
-RUN \
-  apt-get update && \
-  apt-get install -y openjdk-7-jdk && \
-  rm -rf /var/lib/apt/lists/*
-
 
 # Define working directory.
 WORKDIR /data
