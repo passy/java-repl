@@ -1,6 +1,6 @@
 # java-repl
 
-[![](https://imagelayers.io/badge/passy/java-repl:latest.svg)](https://imagelayers.io/?images=passy/java-repl:latest)
+[![](https://images.microbadger.com/badges/image/passy/java-repl.svg)](https://microbadger.com/images/passy/java-repl "Get your own image badge on microbadger.com")
 
 [![Docker Hub](http://dockeri.co/image/passy/java-repl)](https://registry.hub.docker.com/u/passy/java-repl/)
 
